@@ -1,0 +1,67 @@
+[
+  {
+    "name": "history",
+    "cards": [
+      {
+        "question": "Vasco de Gama reached India in what year?",
+        "answer": "1498"
+      },
+      {
+        "statement": "George Washington was the first president of the United States of America.",
+        "answer": "George Washington",
+        "question": " ...  was the first president of the United States of America."
+      },
+      {
+        "statement": "Abraham Lincoln was the 16th president of the United States of America.",
+        "answer": "16th",
+        "question": "Abraham Lincoln was the  ...  president of the United States of America."
+      },
+      {
+        "statement": "Columbus arrived in the Americas in 1492.",
+        "answer": "1492",
+        "question": "Columbus arrived in the Americas in  ... ."
+      },
+      {
+        "statement": "Ice cream was invented by the Roman civilization.",
+        "answer": "roman",
+        "found": true,
+        "question": "Ice cream was invented by the  ...  civilization."
+      },
+      {
+        "statement": "Ice cream was invented by the Roman civilization.",
+        "answer": "Roman",
+        "found": true,
+        "question": "Ice cream was invented by the  ...  civilization."
+      },
+      {
+        "statement": "Ice cream was invented by the Roman civilization.",
+        "answer": "roman",
+        "found": true,
+        "question": "Ice cream was invented by the  ...  civilization."
+      },
+      {
+        "question": "What French civilization invaded England in 1066?",
+        "answer": "Normans",
+        "found": true
+      }
+    ]
+  },
+  {
+    "name": "science",
+    "cards": [
+      {
+        "question": "What is the chemical symbol for water?",
+        "answer": "h20"
+      },
+      {
+        "question": "What is the Latin name for wolf?",
+        "answer": "Canis lupus"
+      },
+      {
+        "question": "What is the boiling point of water (in Fahrenheit)?",
+        "answer": "212",
+        "found": true
+      }
+    ]
+  }
+]
