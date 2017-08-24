@@ -32,14 +32,17 @@ if (command[0] === 'reset') {
     };
     makeCards(allDecks, command[0], msg);
 } else {
-    var count = 0;
+    var deckIndex = -1;
     allDecks.forEach(function(value, index){
-        if (command[0].toLowerCase() === allDecks[index].name.toLowerCase()) {
-            studyCards(allDecks[index]);
-            count++;
-        }
+        if(typeof command[0] === 'undefined'){
+            return;
+        } else if (command[0].toLowerCase() === allDecks[index].name.toLowerCase()) {
+            deckIndex = index;
+        };
     });
-    if (count === 0){
+    if (deckIndex > -1){ 
+        studyCards(allDecks[deckIndex])
+    } else {
         console.log('That command is not recognized. \nType "basic" to create basic cards. \nType "cloze" to create cloze cards. \nType the name of a deck to study that deck. \nType "reset" to delete all decks.')
     };
 };

@@ -27,7 +27,6 @@ function makeCards(allDecks, type, msg){
             allDecks.forEach(function(val, i){
                 if (allDecks[i].name.toLowerCase() === response.deckName.toLowerCase()) {
                     currentDeck = allDecks[i];
-                    console.log(currentDeck.name)
                     deckIndex = i;
                     count++;
                     return;
