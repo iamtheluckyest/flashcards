@@ -4,11 +4,14 @@
   "description": "Allows users to create and study either basic Q/A flashcards or cloze deletion flashcards.",
   "main": "cli.js",
   "dependencies": {
-    "inquirer": "^3.2.2"
+    "inquirer": "^3.2.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/iamtheluckyest/flashcards/issues"
   },
-  "homepage": "https://github.com/iamtheluckyest/flashcards#readme"
+  "homepage": "https://github.com/iamtheluckyest/flashcards#readme",
+  "snyk": true
 }
